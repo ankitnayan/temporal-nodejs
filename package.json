@@ -1,0 +1,25 @@
+{
+  "name": "temporal-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api-logs": "^0.200.0",
+    "@opentelemetry/exporter-logs-otlp-http": "^0.200.0",
+    "@opentelemetry/resources": "^2.0.0",
+    "@opentelemetry/sdk-logs": "^0.200.0",
+    "@opentelemetry/winston-transport": "^0.11.0",
+    "dotenv": "^16.4.7",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
